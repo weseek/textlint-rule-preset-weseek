@@ -1,0 +1,24 @@
+{
+  "name": "textlint-config-weseek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weseek/textlint-config-weseek.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weseek/textlint-config-weseek/issues"
+  },
+  "homepage": "https://github.com/weseek/textlint-config-weseek#readme",
+  "devDependencies": {
+    "textlint": "^12.0.2",
+    "textlint-rule-no-todo": "^2.0.1"
+  },
+  "dependencies": {}
+}
