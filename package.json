@@ -21,4 +21,8 @@
     "textlint-rule-no-todo": "^2.0.1"
   },
   "dependencies": {}
+  ,
+  "engines": {
+    "node": ">= 12"
+  }
 }
