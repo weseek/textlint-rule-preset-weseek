@@ -1,1 +1,3 @@
-# textlint-config-weseek
+# textlint-rule-preset-weseek
+
+textlint rule preset 

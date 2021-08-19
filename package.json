@@ -1,5 +1,5 @@
 {
-  "name": "textlint-config-weseek",
+  "name": "textlint-rule-preset-weseek",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,22 +8,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weseek/textlint-config-weseek.git"
+    "url": "git+https://github.com/weseek/textlint-rule-preset-weseek.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/weseek/textlint-config-weseek/issues"
+    "url": "https://github.com/weseek/textlint-rule-preset-weseek/issues"
   },
-  "homepage": "https://github.com/weseek/textlint-config-weseek#readme",
-  "devDependencies": {
+  "homepage": "https://github.com/weseek/textlint-rule-preset-weseek#readme",
+  "devDependencies": {},
+  "dependencies": {
     "textlint-rule-no-todo": "^2.0.1"
   },
-  "dependencies": {},
   "peerDependencies": {
     "textlint": "^12.0.2"
   },
   "engines": {
     "node": ">= 12"
-  }
+  },
+  "keywords": [
+    "textlintrule",
+    "weseek",
+    "preset",
+    "rule",
+    "textlint"
+  ]
 }
