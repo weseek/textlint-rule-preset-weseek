@@ -2,7 +2,7 @@
   "name": "textlint-rule-preset-weseek",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/textlint-rule-preset-weseek.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
