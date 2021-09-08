@@ -50,7 +50,6 @@
     "no-kangxi-radicals": true,
     "use-si-units": true,
     "no-dead-link": true,
-    "date-weekday-mismatch": true,
     "no-surrogate-pair": true
   }
 }
