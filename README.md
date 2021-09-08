@@ -28,4 +28,4 @@ Via `.textlintrc`
 ## Tips
 ### Visual Studio Code Settings
 
-Just install the extension `vscode-textlint` and you can use textlint on VS code.
+Just install the extension `vscode-textlint` and you can use textlint in VS code.
