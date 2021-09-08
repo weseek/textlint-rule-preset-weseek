@@ -1,6 +1,57 @@
 {
-  "filters": {},
   "rules": {
-    "no-todo": true
+    "sentence-length": {
+      "max": 100
+    },
+    "max-ten": {
+      // 1文に利用できる最大の、の数
+      // max: 3の場合は4つ以上の読点でエラーとなる
+      "max": 3,
+      // 例外ルールを適応するかどうか,
+      "strict": false,
+      // 読点として扱う文字
+      // https://ja.wikipedia.org/wiki/%E8%AA%AD%E7%82%B9
+      "touten": "、",
+      // 句点として扱う文字
+      // https://ja.wikipedia.org/wiki/%E5%8F%A5%E7%82%B9
+      "kuten": "。"
+    },
+    "max-kanji-continuous-len": true,
+    "ja-no-mixed-period": true,
+    "no-double-negative-ja": true,
+    "no-dropping-the-ra": true,
+    "no-doubled-conjunction": true,
+    "no-doubled-joshi": true,
+    "no-hankaku-kana": true,
+    "ja-no-abusage": true,
+    "ja-no-redundant-expression": true,
+    "ja-hiragana-hojodoushi": true,
+    "prefer-tari-tari": true,
+    "ja-no-inappropriate-words": true,
+    "no-hoso-kinshi-yogo": true,
+    "max-comma": {
+        "max" : 4
+    },
+    "no-mixed-zenkaku-and-hankaku-alphabet": true,
+    "terminology": {
+      // Load default terms (see terms.json in the repository)
+      "defaultTerms": true,
+      // Syntax elements to skip. Overrides the default
+      "skip": ["Blockquote"],
+      // List of terms
+      "terms": "./terms.json"        
+    },
+    "ginger": true,
+    "no-nfd": true,
+    "@textlint-rule/no-invalid-control-character": true,
+    "no-zero-width-spaces": true,
+    "@textlint-rule/no-unmatched-pair": true,
+    "ja-unnatural-alphabet": true,
+    "no-kangxi-radicals": true,
+    "use-si-units": true,
+    "no-dead-link": true,
+    "date-weekday-mismatch": true,
+    "no-surrogate-pair": true
   }
 }
+
