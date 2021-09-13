@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-preset-weseek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/textlint-rule-preset-weseek.js",
   "scripts": {
